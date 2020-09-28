@@ -27,7 +27,11 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
- 
+    if each_word == "normal":
+      feelings_list.append("normal")
+      encouragement_list.append("Well keep up the good work and i hope you will smile")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
